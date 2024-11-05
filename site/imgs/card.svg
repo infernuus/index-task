@@ -1,0 +1,14 @@
+<svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<mask id="mask0_1_546" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="21" height="16">
+<rect width="20" height="15" transform="translate(0.5 0.5)" fill="url(#pattern0_1_546)"/>
+</mask>
+<g mask="url(#mask0_1_546)">
+<rect x="0.5" y="0.5" width="20" height="15" fill="white"/>
+</g>
+<defs>
+<pattern id="pattern0_1_546" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_1_546" transform="scale(0.05 0.0666667)"/>
+</pattern>
+<image id="image0_1_546" width="20" height="15" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPBAMAAAAWtvJmAAAAHlBMVEVlY/8AAABgYP9lY/9mYv8AAP9jY/9mZv9lZP9jY/8clQa1AAAACnRSTlP/ABD3ngFNCtIfD2YL3QAAAExJREFUeJxjKDFgAANmdwYHCIuBgYXBIEkJDNSYGRgUBcFAFCaLASZB1CoBmVC1giBmA0MrlKmKYCoGKQXCmHC1BqkQlhgzshsQLgMA2qMMTgomRDkAAAAASUVORK5CYII="/>
+</defs>
+</svg>

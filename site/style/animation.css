@@ -1,0 +1,74 @@
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+
+    }
+}
+
+@keyframes slideout {
+    from {
+        
+
+    }
+}
+
+@keyframes slidedown {
+    from {
+        bottom: 400px;
+        top: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes wow {
+    from {}
+
+    to {
+        box-shadow: 0px 0px 27px 0px #752beebb;
+    }
+}
+
+@keyframes swim {
+    from {
+        background-position: 1449px 175.5px;
+    }
+
+    to {
+        background-position: 1449px 180.5px;
+    }
+
+}
+
+@keyframes swim2 {
+    from {}
+
+    to {
+        bottom: 0px;
+        top: 65px;
+
+    }
+
+}
+
+@keyframes opas {
+    from {
+        opacity: 0;
+    }
+
+}
+
+@keyframes weight {
+    from {
+        padding: 60px;
+        opacity: 30%;
+    }
+
+}
+
+@keyframes weight2 {
+    from {
+        margin: -10px;
+        opacity: 50%;
+    }
+
+}

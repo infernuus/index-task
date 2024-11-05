@@ -1,0 +1,1124 @@
+/* *{
+    border: #404444 solid 1px;
+} */
+body {
+    margin: 0;
+    padding-left: 62px;
+    padding-right: 62px;
+    /* width: 1947px; */
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* header css start */
+.top-header {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    height: 83px;
+    border-bottom: solid 1px rgb(204, 204, 204);
+}
+
+.th-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    align-items: flex-start;
+
+}
+
+.but-icon {
+    border: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    font-size: 20px;
+}
+
+
+header .nav {
+    padding: 21px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    float: left;
+}
+
+.logo {
+    padding-right: 31.75px;
+}
+
+header .nav p {
+    display: inline;
+    position: relative;
+    padding-left: 67.5px;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18.29px;
+    text-align: center;
+
+}
+
+header .nav-number {
+    padding: 21px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    float: left;
+}
+
+header .nav-number p {
+    display: inline;
+    position: relative;
+    /* margin-left: 67.5px; */
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 18.29px;
+    text-align: center;
+    margin: 15px;
+}
+
+.phone-number {
+    float: right;
+
+}
+
+/* header css end */
+
+/* main css start */
+
+.presentation {
+    background-image: url(../imgs/bg.svg);
+    background-repeat: no-repeat;
+    background-position: 1449px 175.5px;
+    /* anim */
+    animation-name: swim;
+    animation-duration: 800ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.left-part {
+    width: 708px;
+    height: 637px;
+}
+/* .left-part .block-opt{
+    animation: 3s infinite alternate 5s;
+} */
+.block-opt {
+    width: 64.5px;
+    height: 346px;
+    top: 78px;
+    position: relative;
+    left: 150px;
+    opacity: 0px;
+    background: #404444;
+    border-radius: 15px;
+    box-shadow: 0px 36px 51px 0px #090EA033;
+    /* anim */
+    animation: slidedown 5s;
+    /* animation-name: slidedown, swim2;
+    animation-duration: 5s, 3s; */
+}
+
+.imgs-list {
+    display: inline-grid;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+
+.img-li {
+
+    padding-bottom: 30px;
+}
+
+.img-li-i {
+    box-shadow: 0px 0px 6.5px 0px #090EA080;
+}
+
+.img-scale {
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 16px;
+    position: absolute;
+    top: 136.8px;
+    left: 320.45px;
+    /* anim */
+    animation-duration: 6s;
+    animation-name: slidedown;
+}
+
+.high-price {
+    width: 280px;
+    height: 122px;
+    background-color: #fff;
+    position: absolute;
+    left: 115px;
+    top: 571.2px;
+    /* anim */
+    animation-duration: 7s;
+    animation-name: slidedown;
+}
+
+.text-price {
+    margin: 0;
+    margin-bottom: 11.5px;
+    font-family: Montserrat;
+    font-size: 11.3px;
+    font-weight: 300;
+    line-height: 13.41px;
+    text-align: left;
+
+}
+
+.price {
+    margin: 0;
+
+    font-family: Montserrat;
+    font-size: 29px;
+    font-weight: 600;
+    line-height: 35.35px;
+    text-align: left;
+    padding-right: 12.5px;
+}
+
+.money {
+    display: inline-flex;
+    font-family: MS Reference Sans Serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 35.35px;
+    text-align: left;
+}
+
+.price-box {
+    display: inline-flex;
+
+}
+
+.optional-window {
+    background-color: #404444;
+    width: 343px;
+    height: 223px;
+    box-shadow: 0px 36px 51px 0px #090EA026;
+    border-radius: 16px;
+    position: absolute;
+    top: 497px;
+    left: 426px;
+    /* anim */
+    animation-duration: 6s;
+    animation-name: slidedown;
+}
+
+.option1 {
+    display: inline-flex;
+    padding-top: 17px;
+    padding-left: 17px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    float: left;
+    /*  */
+    height: 23px;
+
+}
+
+.option1 .icon-inherit {
+    padding-left: 12px;
+}
+
+.option1 p {
+    padding-left: 15.4px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.63px;
+    text-align: left;
+    color: #ffffff;
+}
+
+/* right part */
+.right-part {
+    float: right;
+    position: absolute;
+    top: 163px;
+    right: 560px;
+}
+
+.text-presentation {
+    position: relative;
+    width: 659px;
+    height: 261px;
+}
+.primary-button:hover{
+    animation-name: wow;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+
+.parag-pres {
+    margin: 0;
+    width: 663.5px;
+    font-family: Unbounded;
+    font-size: 57px;
+    font-weight: 600;
+    line-height: 74.2px;
+    text-align: left;
+    text-transform: uppercase;
+    /* anim */
+    animation-duration: 3s;
+    animation-name: opas;
+}
+
+.par-per {
+    width: 764px;
+    height: 67px;
+    padding-top: 5px;
+    padding-left: 2px;
+    font-family: Montserrat;
+    font-size: 16.5px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    color: #4C4C4C;
+    /* anim */
+    /* animation-delay: 200ms; */
+    animation-duration: 6s;
+    animation-name: opas;
+}
+
+
+.primary-button {
+    width: 177px;
+    height: 44px;
+    margin-top: 25px;
+    position: relative;
+    color: #fff;
+    border: none;
+    background: #6367E9;
+    border-radius: 5px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: center;
+
+}
+
+/* cards */
+
+.cards {
+    width: -webkit-fill-available;
+    display: inline-flex;
+    justify-content: center;
+    padding-top: 107px;
+}
+
+.cards-menu {
+    width: 1577px;
+    height: 123px;
+    top: 804px;
+    left: 221px;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card {
+    width: 373px;
+    height: 123px;
+    background-color: #F0F5F7;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    /* anim */
+    animation: weight 3s alternate;
+}
+
+.card-content {
+    display: inline-flex;
+    margin: 42px;
+}
+
+.img-card {
+    width: 40px;
+    height: 40px;
+    padding-right: 20px;
+    
+}
+
+.text-card {
+    margin: 0;
+    width: 206px;
+    height: 40px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    text-align: left;
+}
+
+/* возможности */
+
+.possibilities-cards {
+    background-image: url(../imgs/bg-cards-pos.png);
+    height: 1600px;
+}
+
+.possibilities-card {
+    width: 796.9px;
+    position: relative;
+    top: 107px;
+    left: 191px;
+    /* anim */
+    animation: slidedown 4s alternate;
+}
+
+.possibilities {
+    width: 139.2px;
+    height: 14px;
+    font-family: Unbounded;
+    font-size: 15.3px;
+    font-weight: 500;
+    line-height: 14.88px;
+    text-align: left;
+    margin-bottom: 15px;
+    color: #4C4C4C;
+}
+
+.key-benefits {
+    width: 759.9px;
+    height: 84px;
+    font-family: Unbounded;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 42.16px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.pos-discription {
+    width: 623px;
+    height: 63px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    color: #707070;
+}
+
+
+/* posties-cards */
+.posties-cards {
+    display: block;
+    position: relative;
+    right: 100px;
+}
+
+.posties-card1 {
+    width: 859px;
+    height: 643px;
+    border-radius: 16px;
+    float: right;
+    position: relative;
+    /* anim */
+    animation: slidedown 10s alternate;
+}
+
+.posties-card2 {
+    width: 859px;
+    height: 643px;
+    float: right;
+    position: inherit;
+    top: 423px;
+    /* anim */
+    animation: slidedown 12s alternate;
+}
+
+.posties-card3 {
+    width: 859px;
+    height: 643px;
+    float: right;
+    position: relative;
+    top: 250px;
+    /* anim */
+    animation: slidedown 14s alternate;
+}
+
+.pos-num {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #F0F5F7;
+    box-shadow: 0px 36px 51px 0px #090EA01C;
+    display: grid;
+    position: relative;
+    bottom: 43px;
+}
+
+.pos-num p {
+    width: 100px;
+    height: 100px;
+    font-family: Unbounded;
+    font-size: 69px;
+    font-weight: 600;
+    line-height: 85.56px;
+    margin: 0;
+    padding-top: 8px;
+    margin-left: -2px;
+    text-align: center;
+    color: #CAD1D4;
+}
+
+.pos-h h2 {
+    width: 139.2px;
+    height: 9px;
+    font-family: Unbounded;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.88px;
+    text-align: left;
+    position: absolute;
+    top: -27px;
+    left: 114px;
+    text-transform: uppercase;
+}
+
+.pos-h h1 {
+    width: 544.4px;
+    height: 18px;
+    font-family: Unbounded;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.76px;
+    text-align: left;
+    position: absolute;
+    top: -17px;
+    left: 114px;
+}
+
+.pos-txt {
+    width: 568px;
+    height: 63px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    position: relative;
+    right: 41px;
+    top: 300px;
+    float: inline-end;
+    text-align: left;
+    background-color: #FFFFFF;
+    padding: 30px 67px 115px 41px;
+    border-radius: 16px;
+    box-shadow: 0px 15px 50px 0px #090EA01C;
+
+}
+
+.bg-card {
+    width: 745px;
+    height: 520px;
+    background-color: #fff;
+    background-image: url(../imgs/bg-pos.png);
+    background-repeat: no-repeat;
+    box-shadow: 0px 36px 51px 0px #090EA021;
+    border-radius: 16px;
+}
+
+.primary-button-pos {
+    width: 177px;
+    height: 44px;
+    left: 750px;
+    color: #fff;
+    border: none;
+    background: #6367E9;
+    border-radius: 5px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: center;
+}
+.primary-button-pos:hover{
+    animation-name: wow;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+.points-cards {
+    position: relative;
+    left: 48.5%;
+    top: 336px;
+}
+
+.points-cards2 {
+    position: relative;
+    left: 51%;
+    top: 587px;
+}
+
+.label-form {
+    width: 535px;
+    height: 111px;
+    position: relative;
+    bottom: 90px;
+    left: 9%;
+}
+
+.label-form p {
+    width: 490px;
+    height: 34px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24.27px;
+    text-align: left;
+    margin-bottom: 31px;
+}
+
+.input-label {
+    width: 456px;
+    height: 44px;
+    border: 1px solid #B8B8B8;
+    border-radius: 5px;
+    padding-left: 18px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: left;
+
+
+}
+
+.input-label-div {
+    display: flex;
+}
+
+.input-label-div .sumbit-but {
+    position: relative;
+    right: 10px;
+    width: 177px;
+    height: 48px;
+    color: #fff;
+    border: none;
+    background: #6367E9;
+    border-radius: 5px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: center;
+    padding: 17px 30px 17px 30px;
+}
+
+/* main css end */
+/*  */
+.column-card {
+    width: 485px;
+    float: right;
+    height: 300px;
+
+}
+
+.columns {
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 108px;
+}
+
+.columns-menu {
+    width: -webkit-fill-available;
+    display: grid;
+    justify-content: center;
+}
+
+.columns-menu h2 {
+    width: 166px;
+    height: 45px;
+    left: 87px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Unbounded;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 27.6px;
+    text-align: left;
+    margin-bottom: 27px;
+}
+
+.col-card {
+    width: 548px;
+    height: 479.5px;
+    padding-left: 50px;
+}
+
+.column-card p {
+    width: 426px;
+    height: 83px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24.27px;
+    text-align: left;
+
+}
+
+.scale-img {
+    position: relative;
+    left: -51px;
+    /* anim */
+
+}
+.scale-img:hover {
+    animation-name: weight2;
+    animation-duration: 1s;
+    animation-direction: alternate;
+}
+.column-scale {
+    width: 220px;
+    height: 220px;
+    position: relative;
+    top: 159px;
+    left: 3px;
+}
+
+.bg-colum {
+    width: 455px;
+    height: 300px;
+    border-radius: 16px;
+    background-image: url(../imgs/bg-bg.png);
+}
+
+/* advice-main*/
+.advice {
+    width: -webkit-fill-available;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 180px;
+}
+
+.advice-block {
+    width: 1306px;
+    height: 200px;
+    background-image: url(../imgs/bg-advice.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 215px;
+    padding-top: 50px;
+    padding-right: 217px;
+    padding-bottom: 0;
+    display: inline-flex;
+    border-radius: 16px;
+    justify-content: space-between;
+}
+
+.advice-block h2 {
+    width: 723px;
+    height: 48px;
+    font-family: Unbounded;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.76px;
+    text-align: left;
+}
+
+.advice-block p {
+    width: 756px;
+    height: 34px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24.27px;
+    text-align: left;
+
+}
+
+.advice-buts {
+    display: grid;
+    position: relative;
+    float: right;
+    margin-top: 20px;
+    justify-items: end;
+    align-content: center;
+    bottom: 40px;
+}
+
+.advice-buts .sumbit-but {
+    position: relative;
+    width: 177px;
+    height: 48px;
+    color: #fff;
+    border: none;
+    background: #6367E9;
+    border-radius: 5px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: center;
+    padding: 17px 30px 17px 30px;
+    margin-bottom: 10px;
+}
+.sumbit-but:hover{
+    animation-name: wow;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+.button-advice:hover{
+    animation-name: wow;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+.advice-buts .button-advice {
+    width: 251px;
+    height: 44px;
+    border: 2px 0px 0px 0px;
+    background: transparent;
+    border: 3px solid #6367E9;
+    border-radius: 5px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+    text-align: center;
+
+}
+
+/* advice-end */
+
+/* start-plan */
+.start-plan-block {
+    margin-top: 101px;
+    width: -webkit-fill-available;
+    height: 206px;
+    display: inline-flex;
+    justify-content: center;
+    margin-bottom: 101px;
+}
+
+.s-p-card {
+    width: 1738px;
+    display: inherit;
+    justify-content: space-between;
+}
+
+.s-p-content {
+    width: 709px;
+    height: 188.5px;
+}
+
+.s-p-content h3 {
+    width: 138.2px;
+    height: 9px;
+    font-family: Unbounded;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.88px;
+    text-align: left;
+    color: #4c4c4c;
+    text-transform: uppercase;
+}
+
+.s-p-content h2 {
+    width: 709px;
+    height: 68px;
+    font-family: Unbounded;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 42.16px;
+    text-align: left;
+}
+
+.s-p-content p {
+    width: 576px;
+    height: 63px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #4c4c4c;
+}
+
+.s-p-img {
+    float: right;
+}
+/* ul-results  */
+.ul-results {
+    width: -webkit-fill-available;
+    display: grid;
+    justify-content: center;
+}
+
+.ul-result3-4 {
+    width: 1306px;
+    height: 661px;
+    display: inline-flex;
+    justify-content: space-between;
+    animation: slidein 10s 5s;
+}
+
+.ul-result6-8 {
+    width: 1306px;
+    height: 197px;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-bottom: 97px;
+}
+
+.ul-result11-12 {
+    width: 1306px;
+    height: 300px;
+    display: inline-flex;
+    justify-content: space-between;
+    animation: slidein 10s 5s;
+}
+
+.pres-ul-res {
+    width: 425px;
+    height: 137px;
+    background: #404444;
+    background-image: url(../imgs/calendar.png);
+    background-repeat: no-repeat;
+    background-position: 25px 35px;
+    float: left;
+    border-radius: 16px;
+    display: grid;
+    justify-items: end;
+    padding: 30px;
+}
+
+.pres-ul-res h2 {
+    width: 224px;
+    height: 40px;
+    font-family: Unbounded;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.8px;
+    text-align: right;
+    float: right;
+    color: white;
+}
+
+.pres-ul-res button {
+    float: right;
+}
+
+.ul-content {
+    width: 701px;
+    height: 531px;
+}
+
+.ul-content ul {}
+
+.ul-content li {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #6367E9;
+}
+
+.ul-content li span {
+
+    color: #000000;
+}
+
+/* advices-form */
+.advices {
+    width: -webkit-fill-available;
+    display: inline-flex;
+    justify-content: center;
+
+}
+
+.advices .advice-buts {
+    display: inline-flex;
+    position: relative;
+    float: right;
+    margin-top: 20px;
+    justify-items: end;
+    align-content: center;
+    top: 27px;
+}
+
+/* Q&A */
+.QnA {
+    width: -webkit-fill-available;
+    display: grid;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.questions {
+    width: 939px;
+    height: 727px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.QnA h2 {
+    width: 82.3px;
+    height: 10px;
+    color: #4C4C4C;
+    font-family: Unbounded;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16.12px;
+    text-align: left;
+
+}
+
+.QnA h1 {
+    width: 423.3px;
+    height: 25px;
+    font-family: Unbounded;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 40.92px;
+    text-align: left;
+}
+
+.QnA .q {
+    width: 936px;
+    height: 75px;
+    color: #4C4C4C;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18.29px;
+    text-align: left;
+    justify-content: space-between;
+    display: inline-flex;
+    align-items: center;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.question-buts {
+    width: 412.5px;
+    height: 44.5px;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 42px;
+}
+
+
+.question-buts .primary-button {
+    margin: 0;
+}
+
+.question-buts .sumbit-but {
+    position: relative;
+    width: 212px;
+    height: 44px;
+    color: #fff;
+    border: none;
+    background: #6367E9;
+    border-radius: 5px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+/* footer */
+.footer {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    height: 123px;
+    border-top: solid 1px rgb(204, 204, 204);
+    padding-top: 30px;
+    margin-top: 40px;
+}
+
+footer .nav {
+    display: inline-grid;
+    align-items: center;
+    justify-content: space-evenly;
+    float: left;
+}
+
+.logo {
+    padding-right: 31.75px;
+}
+.logo:hover {
+    animation: slidedown 3s alternate infinite;
+}
+
+
+footer .nav p {
+    display: inline;
+    position: relative;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.63px;
+    text-align: left;
+    color: #666666;
+}
+
+footer .nav a {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: left;
+    color: #6367E9;
+    text-decoration: underline #6367E9;
+}
+
+footer .nav-number {
+    padding: 21px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    float: left;
+
+}
+
+footer .nav-number p {
+    display: inline;
+    position: relative;
+    /* margin-left: 67.5px; */
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 18.29px;
+    text-align: center;
+    margin: 15px;
+}
+/* media-adapt */
+@media(max-width: 1920px) {
+    body {
+        zoom: 90%;
+        -moz-transform: scale(0.9);
+    }
+}
