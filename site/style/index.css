@@ -114,6 +114,7 @@ header .nav-number p {
     width: 708px;
     height: 637px;
 }
+
 /* .left-part .block-opt{
     animation: 3s infinite alternate 5s;
 } */
@@ -262,10 +263,11 @@ header .nav-number p {
     width: 659px;
     height: 261px;
 }
-.primary-button:hover{
+
+.primary-button:hover {
     animation-name: wow;
     animation-duration: 3s;
-    animation-iteration-count:infinite;
+    animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 
@@ -344,10 +346,21 @@ header .nav-number p {
     background-color: #F0F5F7;
     background-repeat: no-repeat;
     border-radius: 15px;
-    /* anim */
-    animation: weight 3s alternate;
 }
+#card1{
+    animation: slidedown2 10s alternate;
+}
+#card2{
+    animation: slidedown2 9s alternate;
 
+}
+#card3{
+    animation: slidedown2 8s alternate;
+}
+#card4{
+    animation: slidedown2 7s alternate;
+
+}
 .card-content {
     display: inline-flex;
     margin: 42px;
@@ -357,7 +370,7 @@ header .nav-number p {
     width: 40px;
     height: 40px;
     padding-right: 20px;
-    
+
 }
 
 .text-card {
@@ -426,7 +439,7 @@ header .nav-number p {
 .posties-cards {
     display: block;
     position: relative;
-    right: 100px;
+
 }
 
 .posties-card1 {
@@ -436,15 +449,19 @@ header .nav-number p {
     float: right;
     position: relative;
     /* anim */
-    animation: slidedown 10s alternate;
-}
 
+}
+.posties-card1-anim{
+    animation: slidedown 12s alternate;
+}
 .posties-card2 {
     width: 859px;
     height: 643px;
     float: right;
     position: inherit;
     top: 423px;
+}
+.posties-card2-anim{
     /* anim */
     animation: slidedown 12s alternate;
 }
@@ -455,8 +472,10 @@ header .nav-number p {
     float: right;
     position: relative;
     top: 250px;
+}
+.posties-card3-anim{
     /* anim */
-    animation: slidedown 14s alternate;
+    animation: slidedown 12s alternate;
 }
 
 .pos-num {
@@ -484,6 +503,11 @@ header .nav-number p {
     color: #CAD1D4;
 }
 
+.pos-h{
+    position: absolute;
+    top: -17px;
+    left: 114px;
+}
 .pos-h h2 {
     width: 139.2px;
     height: 9px;
@@ -492,9 +516,7 @@ header .nav-number p {
     font-weight: 500;
     line-height: 14.88px;
     text-align: left;
-    position: absolute;
-    top: -27px;
-    left: 114px;
+
     text-transform: uppercase;
 }
 
@@ -506,9 +528,7 @@ header .nav-number p {
     font-weight: 500;
     line-height: 29.76px;
     text-align: left;
-    position: absolute;
-    top: -17px;
-    left: 114px;
+    
 }
 
 .pos-txt {
@@ -555,12 +575,14 @@ header .nav-number p {
     line-height: 17.07px;
     text-align: center;
 }
-.primary-button-pos:hover{
+
+.primary-button-pos:hover {
     animation-name: wow;
     animation-duration: 3s;
-    animation-iteration-count:infinite;
+    animation-iteration-count: infinite;
     animation-direction: alternate;
 }
+
 .points-cards {
     position: relative;
     left: 48.5%;
@@ -638,6 +660,9 @@ header .nav-number p {
 }
 
 .columns {
+        width:-webkit-fill-available ;
+        flex-wrap: wrap;
+        position: relative;
     display: inline-flex;
     justify-content: space-between;
     flex-direction: row;
@@ -669,6 +694,7 @@ header .nav-number p {
     width: 548px;
     height: 479.5px;
     padding-left: 50px;
+    margin-bottom: 40px;
 }
 
 .column-card p {
@@ -688,11 +714,13 @@ header .nav-number p {
     /* anim */
 
 }
+
 .scale-img:hover {
     animation-name: weight2;
     animation-duration: 1s;
     animation-direction: alternate;
 }
+
 .column-scale {
     width: 220px;
     height: 220px;
@@ -778,18 +806,21 @@ header .nav-number p {
     padding: 17px 30px 17px 30px;
     margin-bottom: 10px;
 }
-.sumbit-but:hover{
+
+.sumbit-but:hover {
     animation-name: wow;
     animation-duration: 3s;
-    animation-iteration-count:infinite;
+    animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-.button-advice:hover{
+
+.button-advice:hover {
     animation-name: wow;
     animation-duration: 3s;
-    animation-iteration-count:infinite;
+    animation-iteration-count: infinite;
     animation-direction: alternate;
 }
+
 .advice-buts .button-advice {
     width: 251px;
     height: 44px;
@@ -864,6 +895,7 @@ header .nav-number p {
 .s-p-img {
     float: right;
 }
+
 /* ul-results  */
 .ul-results {
     width: -webkit-fill-available;
@@ -876,9 +908,11 @@ header .nav-number p {
     height: 661px;
     display: inline-flex;
     justify-content: space-between;
-    animation: slidein 10s 5s;
-}
 
+}
+.ul-result3-4-anim {
+    animation: slidein 7s 1;
+}
 .ul-result6-8 {
     width: 1306px;
     height: 197px;
@@ -886,15 +920,19 @@ header .nav-number p {
     justify-content: space-between;
     margin-bottom: 97px;
 }
-
+.ul-result6-8-anim {
+    animation: slideout 7s 1;
+}
 .ul-result11-12 {
     width: 1306px;
     height: 300px;
     display: inline-flex;
     justify-content: space-between;
-    animation: slidein 10s 5s;
-}
 
+}
+.ul-result11-12-anim {
+    animation: slidein 7s 1;
+}
 .pres-ul-res {
     width: 425px;
     height: 137px;
@@ -930,7 +968,7 @@ header .nav-number p {
     height: 531px;
 }
 
-.ul-content ul {}
+/* .ul-content ul {} */
 
 .ul-content li {
     font-family: Montserrat;
@@ -1067,6 +1105,7 @@ footer .nav {
 .logo {
     padding-right: 31.75px;
 }
+
 .logo:hover {
     animation: slidedown 3s alternate infinite;
 }
@@ -1115,10 +1154,5 @@ footer .nav-number p {
     text-align: center;
     margin: 15px;
 }
+
 /* media-adapt */
-@media(max-width: 1920px) {
-    body {
-        zoom: 90%;
-        -moz-transform: scale(0.9);
-    }
-}

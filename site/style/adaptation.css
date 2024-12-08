@@ -1,0 +1,485 @@
+/* desktop-adapt */
+@media(max-width: 1920px) {
+    body {
+        zoom: 90%;
+        -moz-transform: scale(0.9);
+    }
+}
+
+@media(max-width: 1680px) {
+    body {
+        zoom: 80%;
+        -moz-transform: scale(0.7);
+    }
+}
+
+@media(max-width: 1600px) {
+    body {
+        zoom: 80%;
+        -moz-transform: scale(0.7);
+    }
+}
+
+@media(max-width: 1366px) {
+    body {
+        zoom: 67%;
+        -moz-transform: scale(0.7);
+    }
+}
+
+/* telephone-adapt */
+
+@media(max-width: 431px) {
+
+    body {
+        width: 509.85px;
+    }
+
+    .top-header {
+        width: 535px;
+    }
+
+    header .nav p {
+        font-size: 11px;
+        width: 97px;
+        padding-left: 0px;
+    }
+
+    header .nav {
+        width: 510px;
+        padding-right: 0;
+    }
+
+    header .nav-number p {
+        font-size: 11px;
+        width: 105px;
+    }
+
+    .th-content {
+        align-items: stretch;
+    }
+
+    header .nav-number {
+        padding-left: 0;
+        display: none;
+    }
+
+    .logo {
+        width: 70px;
+
+    }
+
+    /* иконки просто */
+    .left-part {
+        width: 258px;
+
+    }
+
+    .block-opt {
+        left: 10px;
+        width: 31px;
+        height: 322px;
+    }
+
+    .imgs-list {
+        padding-left: 9px;
+        padding-right: 9px;
+        padding-top: 30px;
+    }
+
+    .img-li-i {
+        width: 13px;
+    }
+
+    .img-scale {
+        left: 118px;
+    }
+
+    .img-scale img {
+        width: 166px;
+    }
+
+    .high-price {
+        left: 72px;
+    }
+
+    .optional-window {
+        width: 243px;
+        height: 148px;
+        top: 401px;
+        left: 136px;
+    }
+
+    .option1 {
+        height: 10px;
+    }
+
+    .option1 img {
+        width: 19px;
+    }
+
+    .option1 .icon-inherit {
+        width: 10px;
+    }
+
+    .option1 p {
+        font-size: 8px;
+    }
+
+    .right-part {
+        right: 0;
+        left: 397px;
+    }
+
+    .parag-pres {
+        font-size: 12px;
+        line-height: 21px;
+        width: 201px;
+    }
+
+    .par-per {
+        font-size: 10px;
+        line-height: 20px;
+        width: 201px;
+        height: 141px;
+    }
+
+    .primary-button {
+        width: 114px;
+        height: 27px;
+        font-size: 10px;
+
+    }
+    .cards{
+        padding-top: 0;
+    }
+    .cards-menu {
+        width: inherit;
+    }
+
+    .card {
+        width: 123px;
+        height: 102px;
+        display: inline-flex;
+        align-items: center;
+    }
+
+    .card-content {
+        margin: 0;
+        align-items: center;
+    }
+
+    .text-card {
+        width: 78px;
+        height: 67px;
+        font-size: 10px;
+    }
+
+    .text-presentation {
+        width: 224px;
+    }
+
+    .img-card {
+        width: 20px;
+    }
+
+    .possibilities-card {
+        width: 300px;
+        height: max-content;
+        left: 0;
+        top: 50px;
+    }
+
+    .possibilities {
+        font-size: 11px;
+        line-height: 12px;
+    }
+
+    .key-benefits {
+        font-size: 15px;
+        line-height: 16px;
+        height: fit-content;
+        width: 299px;
+    }
+
+    .pos-discription {
+        font-size: 10px;
+        line-height: 11px;
+        width: 473px;
+    }
+
+    .possibilities-cards {
+        width: -webkit-fill-available;
+        display: inline-grid;
+        justify-content: space-around;
+        height: 1725px;
+
+    }
+
+    .posties-cards {
+        top: 40px;
+    }
+
+    .posties-card1 {
+        width: 445px;
+        height: 408px;
+        float: unset;
+        padding-bottom: 50px;
+    }
+
+    .posties-card2 {
+        width: 445px;
+        height: 408px;
+        float: unset;
+        top: 0px;
+        padding-bottom: 50px;
+    }
+
+    .posties-card3 {
+        width: 445px;
+        height: 408px;
+        float: unset;
+        top: 0px;
+        padding-bottom: 50px;
+    }
+
+    .bg-card {
+        width: 443px;
+        height: 285px;
+        background-size: 475px auto;
+    }
+
+    .pos-num {
+        width: 50px;
+        height: 50px;
+        bottom: 21.5px;
+        box-shadow: 0px 36px 51px 0px #090EA01C;
+    }
+
+    .pos-num p {
+        width: 50px;
+        height: 50px;
+        font-size: 34.5px;
+        line-height: 34.5px;
+    }
+
+    .pos-h {
+        left: 60px;
+    }
+
+    .pos-h h2 {
+        font-size: 8px;
+        line-height: 10px;
+    }
+
+    .pos-h h1 {
+        font-size: 14px;
+        line-height: 15px;
+        width: auto;
+    }
+
+    .pos-txt {
+        width: 288px;
+        font-size: 12px;
+        line-height: 14px;
+        padding: 12px 28px 96px 31px;
+        top: 174px;
+    }
+
+    .label-form {
+        bottom: 0;
+        width: 442px;
+        height: max-content;
+
+    }
+
+    .label-form p {
+        font-size: 10px;
+        line-height: 11px;
+        margin-bottom: 15px;
+        height: 20px;
+    }
+
+    .input-label {
+        width: 197px;
+        height: 21px;
+        font-size: 10px;
+    }
+
+    .input-label-div .sumbit-but {
+        width: 124px;
+        height: 21px;
+        font-size: 10px;
+        line-height: 4px;
+        padding: 13px;
+    }
+
+    .columns {
+        width: 538px;
+        flex-wrap: wrap;
+        position: relative;
+        top: -70px;
+    }
+
+    .col-card {
+        width: 219px;
+        height: auto;
+        padding-left: 0;
+
+    }
+
+    .columns-menu h2 {
+        height: 12px;
+        margin: 0;
+        font-size: 10px;
+        line-height: 11px;
+    }
+
+    .scale-img {
+        width: 147px;
+        left: -26px;
+    }
+
+    .column-scale {
+        width: 120px;
+        height: 172px;
+        left: 0;
+    }
+
+    .column-card {
+        width: 198px;
+        height: 130px;
+    }
+
+    .column-card p {
+        width: 198px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .bg-colum {
+        width: 198px;
+        height: 130px;
+    }
+
+    .bg-colum img {
+        width: 198px;
+    }
+    /* main */
+    .advice{
+        margin: 0;
+    }
+    .advice-block{
+        display: inline-flex;
+        width: 405px;
+        height: fit-content;
+        padding: 20px 25px 20px 25px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .advice-block h2{
+        width: 412px;
+        font-size: 14px;
+        line-height: 15px;
+        text-align: center;
+        height: auto;
+    }
+    .advice-block p{
+        width: 397px;
+        font-size: 10px;
+        line-height: 12px;
+        text-align: center;
+        height: auto;
+    }
+    .advice-buts{
+        position: unset;
+        justify-items: center;
+    }
+    .advices .advice-buts{
+
+        top: 0;
+    }
+    .advice-buts .button-advice{
+        width: 168px;
+        height: 21px;
+        font-size: 10px;
+        line-height: 4px;
+        padding: 13px;
+    }
+    .advice-buts .sumbit-but{
+        width: 124px;
+        height: 21px;
+        font-size: 10px;
+        line-height: 4px;
+        padding: 13px;
+    }
+    .start-plan-block{
+        height: 336px;
+        margin-bottom: 50px;
+    }
+    .s-p-card{
+        width: inherit;
+        flex-wrap: wrap;
+    }
+    .s-p-content{
+        width: 540px;
+    }
+    .s-p-img img{
+        width: 500px;
+    }
+    .s-p-content h3 {
+        font-size: 8px;
+        line-height: 12px;
+    }
+    .s-p-content h2 {
+        font-size: 14px;
+        line-height: 14px;
+        height: 30px;
+        width: 540px;
+    }
+    .s-p-content p {
+        font-size: 12px;
+        line-height: 16px;
+        width: 540px;
+    }
+    .ul-result3-4{
+        width: 490px;
+        margin-bottom: 30px;
+        height: 745px;
+    }
+    .ul-result6-8{
+        width: 490px;
+        height: 228px;
+        margin-bottom: 30px;
+    }
+    .ul-result11-12{
+        width: 490px;
+        margin-bottom: 30px;
+    }
+    .pres-ul-res{
+        width: 180px;
+    }
+    .pres-ul-res h2{
+        width: 177px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .ul-content li {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .QnA{
+        justify-content: start;
+    }
+    .QnA .q{
+        width: inherit;
+    }
+    .questions{
+        width: -webkit-fill-available;
+    }
+    .footer .nav-number p{
+        width: 85px;
+        font-size: 10px;
+    }
+
+}
