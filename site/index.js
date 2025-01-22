@@ -103,3 +103,54 @@
 
     observer.observe(an);
 })();
+
+const burgerToggle = document.getElementById('burger-toggle');
+const overlay = document.getElementById('overlay');
+const body = document.getElementById('body')
+
+burgerToggle.addEventListener('change', () => {
+    if (burgerToggle.checked) {
+        overlay.classList.remove('hidden');
+        body.classList.add('body-scroll')
+    } else {
+        overlay.classList.add('hidden');
+        body.classList.remove('body-scroll')
+    }
+});
+
+const buttons = document.querySelectorAll('.q');
+
+buttons.forEach(button => {
+    button.addEventListener('click', () => {
+        const buttonId = button.id;
+
+        buttons.forEach(btn => {
+            if (btn !== button) { 
+                const otherSpan = btn.querySelector('.span');
+                if (otherSpan) {
+                    otherSpan.classList.remove('span-anim');
+                }
+            }
+        });
+        const span = button.querySelector('.span');
+        if (span) {
+            span.classList.toggle('span-anim');
+
+        }
+    });
+});
+
+document.querySelectorAll('.q').forEach((el) => {
+    el.addEventListener('click', () => {
+
+        let content = el.nextElementSibling;
+        let q = el.nextElementSibling;
+
+        if (content.style.maxHeight) {
+            document.querySelectorAll('.content').forEach((el) => el.style.maxHeight = null)
+        } else {
+            document.querySelectorAll('.content').forEach((el) => el.style.maxHeight = null)
+            content.style.maxHeight = content.scrollHeight + "px";
+        }
+    })
+});

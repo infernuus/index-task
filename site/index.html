@@ -1,30 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BI:NEO</title>
     <link rel="shortcut icon" href="imgs/icon.svg">
+
     <link rel="stylesheet" href="style/index.css">
     <link href="https://fonts.cdnfonts.com/css/ms-reference-sans-serif" rel="stylesheet">
+
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orelega+One&family=Unbounded:wght@200..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style/animation.css">
     <link rel="stylesheet" href="style/adaptation.css">
-    
 </head>
 
-<body>
+<body id="body" class="">
+    <div id="overlay" class="hidden"></div>
     <header class="top-header">
         <div class="th-content">
             <div class="nav">
                 <img class="logo" src="imgs/logo.png">
-                <p>О системе</p>
-                <p>Для кого</p>
-                <p>Как подключить</p>
-                <p>Контакты</p>
+                <input id="burger-toggle" type="checkbox">
+                <label class="label-burger" for="burger-toggle">
+                    <span></span>
+                </label>
+
+                <div class="header__list">
+                    <p class="header__link">О системе</p>
+                    <p class="header__link">Для кого</p>
+                    <p class="header__link">Как подключить</p>
+                    <p class="header__link">Контакты</p>
+                </div>
             </div>
             <div class="nav-number">
                 <p class="phone-number">+7 926 458 96 32</p>
@@ -76,23 +84,43 @@
             <!-- штука с тумблерами и текстом -->
             <div class="optional-window">
                 <div class="option1">
-                    <img src="imgs/option1.svg" alt="opt"> <img class="icon-inherit" src="imgs/inherit.svg" alt="">
+                    <label class="checkbox-green">
+                        <input type="checkbox">
+                        <span class="checkbox-green-switch" data-label-on="&nbsp;" data-label-off="&nbsp;"></span>
+                    </label>
+                    <img class="icon-inherit" src="imgs/inherit.svg" alt="">
                     <p>Наследовать</p>
                 </div>
                 <div class="option1">
-                    <img src="imgs/option2.svg" alt="opt"> <img class="icon-inherit" src="imgs/show.svg" alt="">
+                    <label class="checkbox-green">
+                        <input type="checkbox">
+                        <span class="checkbox-green-switch" data-label-on="&nbsp;" data-label-off="&nbsp;"></span>
+                    </label>
+                    <img class="icon-inherit" src="imgs/show.svg" alt="">
                     <p>Отображать значение в таблице</p>
                 </div>
                 <div class="option1">
-                    <img src="imgs/option2.svg" alt="opt"> <img class="icon-inherit" src="imgs/connect.svg" alt="">
+                    <label class="checkbox-green">
+                        <input type="checkbox">
+                        <span class="checkbox-green-switch" data-label-on="&nbsp;" data-label-off="&nbsp;"></span>
+                    </label>
+                    <img class="icon-inherit" src="imgs/connect.svg" alt="">
                     <p>Связывать объект с клоном</p>
                 </div>
                 <div class="option1">
-                    <img src="imgs/option1.svg" alt="opt"> <img class="icon-inherit" src="imgs/inherit.svg" alt="">
+                    <label class="checkbox-green">
+                        <input type="checkbox">
+                        <span class="checkbox-green-switch" data-label-on="&nbsp;" data-label-off="&nbsp;"></span>
+                    </label>
+                    <img class="icon-inherit" src="imgs/inherit.svg" alt="">
                     <p>Наследовать значение</p>
                 </div>
                 <div class="option1">
-                    <img src="imgs/option2.svg" alt="opt"> <img class="icon-inherit" src="imgs/connect.svg" alt="">
+                    <label class="checkbox-green">
+                        <input type="checkbox">
+                        <span class="checkbox-green-switch" data-label-on="&nbsp;" data-label-off="&nbsp;"></span>
+                    </label>
+                    <img class="icon-inherit" src="imgs/connect.svg" alt="">
                     <p>Запретить редактирование</p>
                 </div>
             </div>
@@ -419,18 +447,103 @@
     <div class="QnA">
         <h2>справка</h2>
         <h1>Ответы на вопросы</h1>
+
         <div class="questions">
-            <div class="q"><p>Индексирование сайта с помощью счетчика Метрики?</p><img src="imgs/plus.svg" alt=""></div> 
-            <div class="q"><p>Как запретить индексирование сайта или страниц?</p><img src="imgs/plus.svg" alt=""></div>
-            <div class="q"><p>Почему важно работать с проверенными компаниями для продвижения на Яндексе?</p><img src="imgs/plus.svg" alt=""></div>
-            <div class="q"><p>Планируемые к тестированию форматы партнерских интеграций и иные эксперименты?</p><img src="imgs/plus.svg" alt=""></div>
-            <div class="q"><p>Настройка представления сайта в результатах поиска?</p><img src="imgs/plus.svg" alt=""></div>
-            <div class="q"><p>Индексирование сайта с помощью счетчика Метрики?</p><img src="imgs/plus.svg" alt=""></div>
-            <div class="q"><p>Как запретить индексирование сайта или страниц?</p><img src="imgs/plus.svg" alt=""></div>
-            <div class="q"><p>Почему важно работать с проверенными компаниями для продвижения на Яндексе?</p><img src="imgs/plus.svg" alt=""></div>
-            <div class="q"><p>Планируемые к тестированию форматы партнерских интеграций и иные эксперименты?</p><img src="imgs/plus.svg" alt=""></div>
-            <div class="q"><p>Настройка представления сайта в результатах поиска?</p><img src="imgs/plus.svg" alt=""></div>
+            <button class="q" id="1q">
+                <p>Индексирование сайта с помощью счетчика Метрики?</p>
+                <div class="plus"><span class="span"></span><span class="spans"></span></div>
+            </button>
+            <div class="content">
+                <div class="q">
+                    <p> Да! </p>
+                </div>
+            </div>
+            <button class="q" id="2q">
+                <p>Как запретить индексирование сайта или страниц?</p>
+                <div class="plus"><span class="span"></span><span class="spans"></span></div>
+            </button>
+            <div class="content">
+                <div class="q">
+                    <p> Да! </p>
+                </div>
+            </div>
+            <button class="q" id="3q">
+                <p>Почему важно работать с проверенными компаниями для продвижения на Яндексе?</p>
+                <div class="plus"><span class="span"></span><span class="spans"></span></div>
+            </button>
+            <div class="content">
+                <div class="q">
+                    <p> Да! </p>
+                </div>
+            </div>
+            <button class="q" id="4q">
+                <p>Планируемые к тестированию форматы партнерских интеграций и иные эксперименты?</p>
+                <div class="plus"><span class="span"></span><span class="spans"></span></div>
+            </button>
+            <div class="content">
+                <div class="q">
+                    <p> Да! </p>
+                </div>
+            </div>
+            <button class="q" id="5q">
+                <p>Настройка представления сайта в результатах поиска?</p>
+                <div class="plus"><span class="span"></span><span class="spans"></span></div>
+            </button>
+            <div class="content">
+                <div class="q">
+                    <p> Да! </p>
+                </div>
+            </div>
+            <button class="q" id="6q">
+                <p>Индексирование сайта с помощью счетчика Метрики?</p>
+                <div class="plus"><span class="span"></span><span class="spans"></span></div>
+            </button>
+            <div class="content">
+                <div class="q">
+                    <p> Да! </p>
+                </div>
+            </div>
+            <button class="q" id="7q">
+                <p>Как запретить индексирование сайта или страниц?</p>
+                <div class="plus"><span class="span"></span><span class="spans"></span></div>
+            </button>
+            <div class="content">
+                <div class="q">
+                    <p> Да! </p>
+                </div>
+            </div>
+            <button class="q" id="8q">
+                <p>Почему важно работать с проверенными компаниями для продвижения на Яндексе?</p>
+                <div class="plus"><span class="span"></span><span class="spans"></span></div>
+            </button>
+            <div class="content">
+                <div class="q">
+                    <p> Да! </p>
+                </div>
+            </div>
+            <button class="q" id="9q">
+                <p>Планируемые к тестированию форматы партнерских интеграций и иные эксперименты?</p>
+                <div class="plus"><span class="span"></span><span class="spans"></span></div>
+            </button>
+            <div class="content">
+                <div class="q">
+                    <p> Да! </p>
+                </div>
+            </div>
+            <button class="q" id="10q">
+                <p>Настройка представления сайта в результатах поиска?</p>
+                <div class="plus"><span class="span"></span><span class="spans"></span></div>
+            </button>
+            <div class="content">
+                <div class="q">
+                    <p> Да! </p>
+                </div>
+            </div>
+
         </div>
+        <!-- start -->
+
+        <!-- end -->
         <div class="question-buts">
             <button class="sumbit-but">Задать свой вопрос</button>
             <button class="primary-button">Подключиться</button>
@@ -449,12 +562,12 @@
                 </div>
             </div>
             <div class="nav-number">
-                <p class="phone-number">+7 926 458 96 32</p>
+                <p href="tel:+74951234567" class="phone-number">+7 926 458 96 32</p>
             </div>
         </div>
     </footer>
+    <script src="index.js"></script>
+
 </body>
 
 </html>
-
-<script src="index.js"> alert('ok!')</script>    

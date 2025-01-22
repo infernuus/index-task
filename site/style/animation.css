@@ -92,3 +92,8 @@
     }
 
 }
+@keyframes rotate{
+    to{
+        transform: rotate(90deg);
+    }
+}
